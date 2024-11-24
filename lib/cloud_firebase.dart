@@ -9,7 +9,7 @@ class FirestoreService {
     await _tasksCollection.add(task.toMap());
   }
 
-  Future<void> updateTask(Task task) async {
+  Future<void> updateTask( task) async {
     await _tasksCollection.doc(task.id).update(task.toMap());
   }
 
