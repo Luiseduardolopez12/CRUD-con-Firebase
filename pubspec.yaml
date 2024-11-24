@@ -88,3 +88,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+dependencies:
+  cloud_firestore: ^4.10.0
+  flutter: sdk: flutter
